@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 
-df=pd.read_csv("eamcet.xls")
+df=pd.read_csv("eamcet.csv")
 st.header("🎓 Eamcet College 2025 Allotment Analysis Dashboard")
 
 
