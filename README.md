@@ -1,6 +1,6 @@
 # 🎓 Andhra EAMCET College Analysis
 
-This project analyzes **Andhra Pradesh EAMCET counseling data**.  
+This project analyzes **Andhra Pradesh EAMCET First counseling data(2025)**.  
 It combines datasets, performs analysis, and provides both Jupyter Notebook insights and a **Streamlit app** for interactive visualization.  
 
 ---
