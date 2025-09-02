@@ -25,6 +25,6 @@ It combines datasets, performs analysis, and provides both Jupyter Notebook insi
 
 ### 4. [`graph.py`](./graph.py)
 - **Streamlit app** for interactive exploration of EAMCET data.
-- Run locally with:
+- Run  with:
   ```bash
-  streamlit run graph.py
+  https://eamcetanalysis.streamlit.app/
