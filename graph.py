@@ -2,6 +2,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="Eamcet 2025 Allotment Analysis Dashboard 😎",
@@ -211,25 +212,7 @@ fig.update_layout(
 # fig.show()
 st.plotly_chart(fig, use_container_width=True)
 
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-import streamlit as st
+        
 
 # Group by Region and College
 district_pref = df.groupby(['Region', 'clg_name']).size().reset_index(name='count')
@@ -298,3 +281,4 @@ st.plotly_chart(fig, use_container_width=True, config={
 best_rankers = df.loc[df.groupby('clg_name')['Rank'].idxmin()][['clg_name', 'Application Name', 'Rank']]
 st.header("🏆 Best Ranker from Each College")
 st.dataframe(best_rankers.sort_values('Rank'), use_container_width=True)
+
